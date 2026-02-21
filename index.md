@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Liz <Tipton
+title: Liz Tipton
 ---
 
 ## About Me

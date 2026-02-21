@@ -1,3 +1,10 @@
+---
+layout: project
+title: Client Outline
+description: Spotted lantern fly project proposal.
+image: /assets/images/SLF.jpg
+---
+
 <!--
 Compile to PDF (example):
   pandoc O3_ClientOutline_example_submission.md -o O3_ClientOutline.pdf

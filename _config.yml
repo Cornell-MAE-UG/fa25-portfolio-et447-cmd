@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Liz Tipton
 description              : Liz Tipton - Projects and CV 
-baseurl                  : "/fa25-portfolio-et447-cmd/" #/fa25-portfolio-et447-cmd/ Set this to your repo name 
+baseurl                  : "/fa25-portfolio-et447-cmd" #/fa25-portfolio-et447-cmd/ Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal

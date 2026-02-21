@@ -1,27 +1,23 @@
 ---
 layout: project
 title: Client Outline
-description: Spotted lantern fly project proposal.
+description: Centrifugal density separator for SLF post harvest
 image: /assets/images/SLF.jpg
 ---
-
-
-
-# Your Project Title
+**Centrifugal density separator for SLF post harvest**
 
 **Team:** Pest Control
+
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
-## Problem statement (most important)
+## Problem statement 
 
  Viticulturalists in New York State are affected by the spotted lantern fly infestation, an invasive species that contaminates the harvest. Batches are rejected from juiceries and wineries, resulting in economic loss. Traditional pest-control methods are insufficient. Pesticides come with high economic and environmental costs. Egg removal proves too difficult because of the massive scale of laying locations, costing too much in labor.  
 
 ## Impact
 Reducing SLF contamination in harvest improves economic output. Currently, farmers rely on insecticide rotations, but a mechanical device would offer a low-chemical alternative and reduce the cost of expensive sprays while meeting the growing consumer demand. 
 
-## Proposed direction(s)
-
-### Concept A (primary): Centrifugal Density Separator
+## Proposed direction: Centrifugal Density Separator
 
 **What it is:** A high-speed rotation device that separates harvested grapes from SLF by density, removing them from the desired product. 
   
@@ -31,30 +27,30 @@ Reducing SLF contamination in harvest improves economic output. Currently, farme
 
 **End-of-semester proof-of-concept:**  A benchtop rotating drum prototype using grapes and 3D printed SLF accurate to weight and size, allowing us to optimize RPM. Success is determined by comparing the percentage of pests (SLF models) successfully sorted with the percentage of harvest lost.
 
-## Key risks / unknowns
+## Key risks and unknowns
 
-<Damage to grapes> A high RPM exerts a force on the grape skin, possibly causing the grapes to break apart. Assessing the damage to grapes requires a physical "Burst Test," spinning grapes at incremental RPMs to identify when skins rupture, then comparing our results to the RPM needed to separate SLF.
-<Mass variation> and obstructions: While a dry lanternfly is less dense than a grape, a lanternfly soaked in grape juice is much denser. Similarly, an SLF wedged inside a tight cluster might not separate easily, resulting in less effective separation. We can test this by using "weighted" objects (3D-printed bugs with adhesive, SLF tucked inside dense clusters or higher-density SLF), measuring SLF removed per cycle at various degrees of obstruction.
-<Processing time> A centrifuge is often a batch process, and if the device takes too long to load, spin, and unload, farmers will reject it in favor of faster methods. To address this, we will test the time the cycle duration of our prototype, and calculate the throughput to compare it to standard manual sorting speeds.
+**Damage to grapes:** A high RPM exerts a force on the grape skin, possibly causing the grapes to break apart. Assessing the damage to grapes requires a physical "Burst Test," spinning grapes at incremental RPMs to identify when skins rupture, then comparing our results to the RPM needed to separate SLF.
+
+**Mass variation and obstructions:** While a dry lanternfly is less dense than a grape, a lanternfly soaked in grape juice is much denser. Similarly, an SLF wedged inside a tight cluster might not separate easily, resulting in less effective separation. We can test this by using "weighted" objects (3D-printed bugs with adhesive, SLF tucked inside dense clusters or higher-density SLF), measuring SLF removed per cycle at various degrees of obstruction.
+
+**Processing time:** A centrifuge is often a batch process, and if the device takes too long to load, spin, and unload, farmers will reject it in favor of faster methods. To address this, we will test the time the cycle duration of our prototype, and calculate the throughput to compare it to standard manual sorting speeds.
 
 
 ## Questions for the client
-Focus on questions they can answer from lived experience.
-1. **<How much material other than grapes, like stems and leaves, typically remains in the bin after your primary harvest?>**  
-   *Decision affected:* <This changes our separation threshold and testing parameters based on what we want to separate/how much grapes weigh.>
-2. **<What is the maximum holding time allowed between the grape being picked and it reaching the crusher before you worry about quality loss? >**  
-   *Decision affected:* <This determines the constraints of our time trials and whether or not our product is viable in the time scale of grape processing.>
-3. **<Do the SLF tend to stay on the surface of the grape clusters when disturbed, or do they retreat deep into the center of the bunch?>**  
-   *Decision affected:* <This affects the “ramping profile” (i.e. how fast we accelerate) based on how hard SLF tends to stay on grapes, and also how we simulate SLF in our separation experiments>
+1. **How much material other than grapes, like stems and leaves, typically remains in the bin after your primary harvest?**  
+   *Decision affected:* This changes our separation threshold and testing parameters based on what we want to separate/how much grapes weigh.
 
-\newpage
+2. **What is the maximum holding time allowed between the grape being picked and it reaching the crusher before you worry about quality loss?**  
+   *Decision affected:* This determines the constraints of our time trials and whether or not our product is viable in the time scale of grape processing.
 
-# Optional page 2 — References and/or one figure
+3. **Do the SLF tend to stay on the surface of the grape clusters when disturbed, or do they retreat deep into the center of the bunch?**  
+   *Decision affected:* This affects the “ramping profile” (i.e. how fast we accelerate) based on how hard SLF tends to stay on grapes, and also how we simulate SLF in our separation experiments
+
 
 ## References
 
-- <Penn State Agricultural Division. “Spotted Lanternfly.” Penn State Extension, extension.psu.edu/spotted-lanternfly.>
-- <Penn State Agricultural Division, “Spotted Lanternfly Management in Vineyards.” Penn State Extension, extension.psu.edu/spotted-lanternfly-management-in-vineyards.>
-- <Department of Environmental Conservation, NYS. “Spotted Lanternfly - NYDEC.” Dec.ny.gov, 16 Mar. 2017, dec.ny.gov/nature/animals-fish-plants/spotted-lanternfly.>
+- Penn State Agricultural Division. “Spotted Lanternfly.” Penn State Extension, extension.psu.edu/spotted-lanternfly.
+- Penn State Agricultural Division, “Spotted Lanternfly Management in Vineyards.” Penn State Extension, extension.psu.edu/spotted-lanternfly-management-in-vineyards.
+- Department of Environmental Conservation, NYS. “Spotted Lanternfly - NYDEC.” Dec.ny.gov, 16 Mar. 2017, dec.ny.gov/nature/animals-fish-plants/spotted-lanternfly.
 
 

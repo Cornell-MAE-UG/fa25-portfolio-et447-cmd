@@ -11,6 +11,7 @@ image: /assets/images/SLF.jpg
 
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
+---
 ## Problem statement 
 
  Viticulturalists in New York State are affected by the spotted lantern fly infestation, an invasive species that contaminates the harvest. Batches are rejected from juiceries and wineries, resulting in economic loss. Traditional pest-control methods are insufficient. Pesticides come with high economic and environmental costs. Egg removal proves too difficult because of the massive scale of laying locations, costing too much in labor.  

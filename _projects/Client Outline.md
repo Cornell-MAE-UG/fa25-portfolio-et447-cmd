@@ -126,6 +126,7 @@ Repeat the rest with a new mixture, but manually toggle the drill direction ever
 Visually assess the separation of SLF and grapes, taking images. Count how many SLF models have successfully floated/separated from the grape cluster in each scenario
 **What happened:**
 Both directions of agitation showed similar amounts of separation; however, the oscillating mechanism led to a greater success rate among 10 trials. There are 10 of each, grape and SLF, represented by their densities and general surfaces in 3D printed form, in each of 10 trials, (see the table below) the oscillating mechanism performed marginally better and with less variance.
+<img src="../../assets/images/first_separationtest.png" alt="Comparing Single Directional with Bi-directional Oscillation" width="500">
 **Quantitative metrics:** 
 Avg Separation % for Single Direction Spinning (#Flown/Sunk over total): 79.5% 
 Avg Separation % for Bi-Directional (#Flown/Sunk over total): 84.5% 
@@ -143,8 +144,7 @@ Measure the distance (in mm) between the spinning propeller tip and the inner wa
 **What happened:** 
 The drill was run at 75,50,25 percent power by marking how far the trigger traveled and (assuming it was proportional to the drill's power/speed) running the experiment while the trigger is pulled to its respective mark. Using a custom 3d printed measuring tool (that was tiny enough not to disturb the vortex, 2 trials on each of the three speeds were conducted (see data below). Because of the nature of our oscillations being inconsistent and often breaking the vortex, only single-directional vortices were measured
 **Quantitative metrics:** 
-Vortex Depth in cm at different % of power.
-
+<img src="../../assets/images/vortex_depth.png" alt="Vortex Depth in cm at different % of power" width="500">
 Clearance from walls: 4.86 inches
 Spillage. Low, with only a few drops being spilled onto the paper tower
 **Design Changes Needed:** 
@@ -191,6 +191,9 @@ Criterion 3 – Operating Stability (Medium Priority): Assesses whether the devi
 Measurement: Pre- and post-spin position markings on the table (target: ≤2cm of movement) and a graduated cylinder to capture spilled water (target: ≤50ml lost at maximum RPM).
 Exhibit Day Demo: We will present a 3D-printed bucket pre-filled with water and a contaminated batch of grape and SLF models. After a 30-second agitation cycle, we will pour the cleaned grapes into a transparent bowl to visually show separation, then weigh the recovered SLF models on a small scale to demonstrate Criterion 1 is met in real time.
 
+## Components List
+<img src="../../assets/images/first_componentslist.png" alt="Components List" width="500">
+
 ## Design intent
 The prototype is a water-based agitation system driven by a handheld drill. The core functional components are:
 Agitator Bucket – A sealed 3D-printed PLA container that holds water, grape models, and SLF models. It acts as the stationary outer vessel during operation.
@@ -200,6 +203,8 @@ Legs – 3D-printed PLA columns that provide enough clearance between the floor 
 Additionally, grape and SLF models were made to test separation.
 Grape Models – 3D-printed PLA parts sized, shaped, and weighted to replicate the density and surface geometry of real grapes. Spheres with a diameter of 20mm and a weight of 4.61g.
 SLF Models – 3D-printed PLA parts sized, shaped, and weighted to simulate the density and surface geometry of real Spotted Lanternflies. Cylinders with diameter 10mm, height 5mm, and weight of 1.42g.
+
+<img src="../../assets/images/first_functionsketch.png" alt="Sketch of System" width="500">
 
 ## Assembly instructions
 Step 1 – Prepare the Shaft Insert the machined aluminum shaft through the center hole of the Agitator Bucket. The flange at the top of the shaft should seat flush against the rim of the bucket, constraining the shaft from dropping through.

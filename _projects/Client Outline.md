@@ -209,6 +209,9 @@ Grape Models – 3D-printed PLA parts sized, shaped, and weighted to replicate t
 SLF Models – 3D-printed PLA parts sized, shaped, and weighted to simulate the density and surface geometry of real Spotted Lanternflies. Cylinders with diameter 10mm, height 5mm, and weight of 1.42g.
 
 <img src="../../assets/images/first_functionsketch.png" alt="Sketch of System" width="500">
+<img src="../../assets/images/Shaft_CAD.png" alt="Shaft CAD" width="500">
+<img src="../../assets/images/Agitatorbucket_CAD.png" alt="Agitator Bucket CAD" width="500">
+<img src="../../assets/images/shaftinterface_CAD.png" alt="Connection Between The Agitator Bucket and Shaft" width="500">
 
 ## Assembly instructions
 Step 1 – Prepare the Shaft Insert the machined aluminum shaft through the center hole of the Agitator Bucket. The flange at the top of the shaft should seat flush against the rim of the bucket, constraining the shaft from dropping through.
@@ -218,4 +221,6 @@ Step 4 – Connect the Legs. Insert three legs into the three bottom holes near 
 Step 5 – Connect the Drill. Insert the end tip of the shaft into the drill chuck. Tighten securely. The drill should be able to drive the shaft in both clockwise and counterclockwise directions for oscillating agitation.
 Step 6 – Load the Bucket. Fill the Agitator Bucket with water to the marked fill line. Add the grape models and SLF models to the water.
 Step 7 – Operate. Power the drill, toggling direction every ~2 seconds to simulate oscillating agitation. Run for 30–60 seconds. SLF models should migrate to the water surface while grape models remain submerged.
+
+<img src="../../assets/images/first_functionsketch.png" alt="Clearance Between Shaft and End of Drill" width="500">
 

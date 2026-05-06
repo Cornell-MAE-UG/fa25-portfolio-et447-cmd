@@ -45,9 +45,7 @@ The device is assembled by seating a bearing and an o-ring into the baseplate to
 **Testing methodology for separation efficiency.** 
 To model the SLF and grapes, we used 3D printed models that were accurate to the density shown in the image on the right. SLF models (cylinders) with density 1g/cm3 and grape models (spheres) with density 1.1g/cm3 (3,4).
 We placed 10 SLF models and 10 grape models into the container and ran the motor at varying RPMs ranging from 500 to 7000. For each of the three trials per RPM, we ran the motor for 30 seconds and then counted the number of SLF that floated to the surface (NSLF float )and the number of grapes that sunk (Ngrapes sunk ). 
-Then we calculated separation efficiency using the following formula:
-Separation efficiency=NSLF float + Ngrapes sunk Ngrapes + NSLF  =NSLF float + Ngrapes sunk 20 
-Testing Methodology for Leak Test
+Then we calculated separation efficiency using a formula.
 Each leak-prone area was submerged each for 1 minute using an arbitrary controlled amount of water, and the number of drops was counted.
 
 **Test for Structural Integrity and Fastening**

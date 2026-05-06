@@ -7,8 +7,8 @@ technologies: NA
 ---
 ## Milestones
 - [Client Outline](#client-outline)
-- [Client Report](#client-report)
 - [Functional Prototype](#functional-prototype)
+- [Client Report](#client-report)
 
 # Client Outline
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
@@ -51,7 +51,6 @@ Reducing SLF contamination in harvest improves economic output. Currently, farme
 
 
 ## References
-
 - Penn State Agricultural Division. “Spotted Lanternfly.” Penn State Extension, extension.psu.edu/spotted-lanternfly.
 - Penn State Agricultural Division, “Spotted Lanternfly Management in Vineyards.” Penn State Extension, extension.psu.edu/spotted-lanternfly-management-in-vineyards.
 - Department of Environmental Conservation, NYS. “Spotted Lanternfly - NYDEC.” Dec.ny.gov, 16 Mar. 2017, dec.ny.gov/nature/animals-fish-plants/spotted-lanternfly.

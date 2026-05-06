@@ -62,6 +62,7 @@ Team Members: Liz Tipton, Katelyn Fu, Arda Griffin, Sarah Bulkley, Junseok Kang
 Date: 5/5/26
 
 ## Context and Problem Statement
+<img src="../../assets/images/rendered_view.png" alt="Rendered View of Final Prototype" width="500">
 Invasive Spotted Lanternflies (SLF) pose a significant $8.8 million threat to the regional grape population (1). National food regulations mandate that SLF be removed before final production. Currently, entire batches of harvested grapes are often discarded if contamination is found. Our team focused on a post-harvest solution that leverages the physical density differences between the insects and the fruit to ensure crop viability and consumer safety. The primary constraint was to achieve a separation efficiency of at least 90% to meet industrial standards.
 
 ## Final Prototype and Application
@@ -69,16 +70,18 @@ We developed a water-based mechanical agitation system. The grapes contaminated 
 This prototype is intended for use at the initial stage of grape processing, where harvested batches can be submerged and agitated to quickly remove invasive pests.
 
 ## Testing and Results 
-Test 1: Identifying Optimal RPM
+**Test 1: Identifying Optimal RPM**
 The primary objective of the product is to separate SLF from grapes. We wanted to test at what RPM separation is most effective. In previous testing, we identified that single-directional spinning was more effective than bi-directional agitation. In this test, we aim to refine our separation method.
-Results
+*Results*
 Observed that at low RPM (~3000 RPM), the majority of grape models sink, and SLF models get the most effectively separated at 3000 RPM. As the RPM increases above the 3000 ~ 4000 range,  grape models do not effectively sink and float with SLF models due to the excessively strong vortex created by the agitation. The highest separation efficiency of 93% is reached at approximately 3000 RPM.
 <img src="../../assets/images/separationefficiency_rpm.png" alt="Graph comparing RPM with separation efficiency" width="500">
 
-Test 2: Leak Test
+**Test 2: Leak Test**
+<img src="../../assets/images/leak_prone.png" alt="Highlighting Leak-prone Areas" width="500">
 The design must be able to hold water without significant leakage since the separation mechanism relies on water to separate the grapes from the SLF. 
 We tested the four most leak-prone areas in our design: areas 1,2 and 3 (highlighted orange) are where the side walls interface, and the blue highlighted area is near the agitator. 
-
+*Results*
+<img src="../../assets/images/leak_test_data.png" alt="Leak Test Data" width="500">
 No leak through the gap between the three side wall parts (Area 1, 2, 3), suggesting that using sealant and glue to connect the sides was sufficient. However, there was a noticeable leak through the center of the product (Area 4), where the shaft and bearing are. After the results, we added more sealant below the base, which reduced leakage. The results suggest that the interface between the agitator and the base requires a redesign. 
 
 ## Conclusion and Recommendation
@@ -93,19 +96,22 @@ For industrial scaling, the side walls should be manufactured as a singular unit
 Since the design uses very few commercially available components, most manufacturing would have to be custom, increasing the per-unit cost. If scaled up, a mechanism would have to be put in place to extract the SLF once they rise to the top and extract the grapes when they sink. The current prototype was only designed with the testing efficiency of separation in mind. Another shortcoming of the design is the potential loss of harvest. Without draining, grape juice is lost when it is diluted with water, so systems would have to be put in place to preserve as much of the harvest as possible. So, despite high separation efficiency, a redesign is required if the design is to be used on an industrial scale. 
 
 ## Prototype and Testing Details
+<img src="../../assets/images/exploded_view.png" alt="Exploded View of Prototype" width="500">
 The device is assembled by seating a bearing and an o-ring into the baseplate to house the agitator shaft. Three side walls are then joined and secured to the base using RTV sealant for its vibration resistance and water-blocking properties. The 3D-printed basin is mounted to a stand, where a motor spinning up to 7000 RPM is integrated. Finally, the agitator is attached to the motor shaft using a standard ASME press-fit reinforced with epoxy. 
 
 **Testing methodology for separation efficiency.** 
+<img src="../../assets/images/slicer_settings.png" alt="Slicer View of SLF and Grape Models Showing Density Difference" width="500">
 To model the SLF and grapes, we used 3D printed models that were accurate to the density shown in the image on the right. SLF models (cylinders) with density 1g/cm3 and grape models (spheres) with density 1.1g/cm3 (3,4).
 We placed 10 SLF models and 10 grape models into the container and ran the motor at varying RPMs ranging from 500 to 7000. For each of the three trials per RPM, we ran the motor for 30 seconds and then counted the number of SLF that floated to the surface (NSLF float )and the number of grapes that sunk (Ngrapes sunk ). 
-Then we calculated separation efficiency using a formula.
+Then we calculated separation efficiency using the following formula:
+<img src="../../assets/images/separation_efficiency_formula.png" width="500">
 Each leak-prone area was submerged each for 1 minute using an arbitrary controlled amount of water, and the number of drops was counted.
 
 **Test for Structural Integrity and Fastening**
 In addition to a leak test and a test for separation efficiency, we also tested the structural integrity of the connection between the motor shaft and the agitator. One key safety concern is that the agitator head must not come loose from the motor shaft during testing. 
 Methodology
 To test the connection, we performed a cycling test of 20 cycles, each lasting 30 seconds, and then inspected the attachment between the motor shaft and the agitator for signs of loosening.
-  Results
+Results
 After several tests, the shaft started spinning within the agitator without causing the agitator to spin. To combat this, we used a quick-setting epoxy adhesive, after which there were no more issues with adhesion between the agitator and the motor. 
 
 ---

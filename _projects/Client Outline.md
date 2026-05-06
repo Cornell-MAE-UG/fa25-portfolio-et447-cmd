@@ -5,10 +5,12 @@ description: Centrifugal density separator for SLF post harvest
 image: /assets/images/SLF.jpg
 technologies: NA
 ---
+
 ## Milestones
 - [Client Outline](#client-outline)
 - [Functional Prototype](#functional-prototype)
 - [Client Report](#client-report)
+---
 
 # Client Outline
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
@@ -56,6 +58,7 @@ Reducing SLF contamination in harvest improves economic output. Currently, farme
 - Department of Environmental Conservation, NYS. “Spotted Lanternfly - NYDEC.” Dec.ny.gov, 16 Mar. 2017, dec.ny.gov/nature/animals-fish-plants/spotted-lanternfly.
 
 ---
+
 # Client Report
 Team Name: F4 Pest Control 
 Team Members: Liz Tipton, Katelyn Fu, Arda Griffin, Sarah Bulkley, Junseok Kang 

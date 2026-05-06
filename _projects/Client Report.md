@@ -1,10 +1,11 @@
 ---
 layout: project
-title: Client Report: Buoyancy-Based Agitation System for SLF Removal
+title: Client Report
 description: Centrifugal density separator for SLF post harvest
 image: /assets/images/SLF.jpg
 technologies: NA
 ---
+
 Team Name: F4 Pest Control 
 Team Members: Liz Tipton, Katelyn Fu, Arda Griffin, Sarah Bulkley, Junseok Kang 
 Date: 5/5/26

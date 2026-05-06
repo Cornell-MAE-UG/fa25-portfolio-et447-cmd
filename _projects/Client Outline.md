@@ -66,46 +66,54 @@ Reducing SLF contamination in harvest improves economic output. Currently, farme
 *Date:* 5/5/26
 
 ## Context and Problem Statement
-<img src="../../assets/images/rendered_view.png" alt="Rendered View of Final Prototype" width="500">
+<img src="../../assets/images/rendered_view.png" alt="Rendered View of Final Prototype" width="200">
 
 Invasive Spotted Lanternflies (SLF) pose a significant $8.8 million threat to the regional grape population (1). National food regulations mandate that SLF be removed before final production. Currently, entire batches of harvested grapes are often discarded if contamination is found. Our team focused on a post-harvest solution that leverages the physical density differences between the insects and the fruit to ensure crop viability and consumer safety. The primary constraint was to achieve a separation efficiency of at least 90% to meet industrial standards.
+
 
 ## Final Prototype and Application
 We developed a water-based mechanical agitation system. The grapes contaminated with SLF are placed in the basin, and the mixture is agitated with the propeller (shown in purple), facilitating consistent and effective separation. SLF rises to the surface, and grapes sink due to their varying densities, achieving a 93% separation efficiency, exceeding our initial 90% goal.
 This prototype is intended for use at the initial stage of grape processing, where harvested batches can be submerged and agitated to quickly remove invasive pests.
+
 
 ## Testing and Results 
 **Test 1: Identifying Optimal RPM**
 
 The primary objective of the product is to separate SLF from grapes. We wanted to test at what RPM separation is most effective. In previous testing, we identified that single-directional spinning was more effective than bi-directional agitation. In this test, we aim to refine our separation method.
 
-*Results*
+*Results:*
+
 Observed that at low RPM (~3000 RPM), the majority of grape models sink, and SLF models get the most effectively separated at 3000 RPM. As the RPM increases above the 3000 ~ 4000 range,  grape models do not effectively sink and float with SLF models due to the excessively strong vortex created by the agitation. The highest separation efficiency of 93% is reached at approximately 3000 RPM.
 <img src="../../assets/images/separationefficiency_rpm.png" alt="Graph comparing RPM with separation efficiency" width="500">
 
 **Test 2: Leak Test**
 
 <img src="../../assets/images/leak_prone.png" alt="Highlighting Leak-prone Areas" width="200">
-
 The design must be able to hold water without significant leakage since the separation mechanism relies on water to separate the grapes from the SLF. 
 We tested the four most leak-prone areas in our design: areas 1,2 and 3 (highlighted orange) are where the side walls interface, and the blue highlighted area is near the agitator. 
 
 *Results*
+
 <img src="../../assets/images/leak_test_data.png" alt="Leak Test Data" width="500">
 
 No leak through the gap between the three side wall parts (Area 1, 2, 3), suggesting that using sealant and glue to connect the sides was sufficient. However, there was a noticeable leak through the center of the product (Area 4), where the shaft and bearing are. After the results, we added more sealant below the base, which reduced leakage. The results suggest that the interface between the agitator and the base requires a redesign. 
+
 
 
 ## Conclusion and Recommendation
 Our prototype was evaluated against 3 primary success criteria defined in Milestone 05.
 
 *Separation Efficiency:* Achieve >= 90% removal of SLF from grapes. 
+
 Result: Passed (93.3%)
 
 *Containment/Leakage:* Zero leaks from wall interfaces over 1 minute of submersion. 
+
 Result: Passed (Areas 1-3); however, the shaft interface (Area 4) leaked 15 drops/min, failing our "zero-leak" goal for that specific component.
 
-*Structural Integrity:* Maintain attachment between motor shaft and agitator through 20 cycles of 30-second operation. Result: Passed after applying epoxy adhesive to reinforce the initial press-fit.
+*Structural Integrity:* Maintain attachment between motor shaft and agitator through 20 cycles of 30-second operation. 
+
+Result: Passed after applying epoxy adhesive to reinforce the initial press-fit.
 
 Based on these outcomes, we recommend moving forward with a redesigned monolithic basin to address SC2 failures while maintaining the 3000 RPM agitation speed that secured our SC1 success.
 
@@ -116,6 +124,7 @@ Since the design uses very few commercially available components, most manufactu
 
 ## Prototype and Testing Details
 <img src="../../assets/images/exploded_view.png" alt="Exploded View of Prototype" width="200">
+
 The device is assembled by seating a bearing and an o-ring into the baseplate to house the agitator shaft. Three side walls are then joined and secured to the base using RTV sealant for its vibration resistance and water-blocking properties. The 3D-printed basin is mounted to a stand, where a motor spinning up to 7000 RPM is integrated. Finally, the agitator is attached to the motor shaft using a standard ASME press-fit reinforced with epoxy. 
 
 **Testing methodology for separation efficiency.** 
@@ -153,6 +162,7 @@ Visually assess the separation of SLF and grapes, taking images. Count how many 
 **What happened:**
 
 Both directions of agitation showed similar amounts of separation; however, the oscillating mechanism led to a greater success rate among 10 trials. There are 10 of each, grape and SLF, represented by their densities and general surfaces in 3D printed form, in each of 10 trials, (see the table below) the oscillating mechanism performed marginally better and with less variance.
+
 <img src="../../assets/images/first_separationtest.png" alt="Comparing Single Directional with Bi-directional Oscillation" width="500">
 
 **Quantitative metrics:** 
@@ -167,6 +177,7 @@ Since bi-directional agitation is significantly more effective, we need to desig
 
 ## Test 2: Propeller Cavitation & Turbulence Range
 **What is being tested:** 
+
 Determining whether the propeller creates enough "lift" to move the SLF models without hitting the bucket walls or the grapes themselves
 
 **How it was tested:** 
@@ -218,6 +229,7 @@ If the propeller begins to slip on the drill shaft, we will iterate the design t
 
 ## Test 4: Leak test
 **What is being tested:** 
+
 How much water is lost through the basket.
 
 **How it was tested:** 
@@ -232,6 +244,7 @@ What happened: Water was filled to the fill line, paper towels were placed under
 Number of drops lost in each cycle (list): 11,7,14
 Average rate of water loss (ml/minute) = #drops*0.05ml/1min = 0.55 ml, 0.35 ml, 0.7 ml
 Design Changes Needed: While the TPU shaft seal holds water incredibly well, better tolerancing on our 3D prints and machine shaft and perhaps an actual shaft seal from McMaster Carr will truly make this a watertight machine.
+
 
 ## Success Criteria
 *Context:* Our device helps grapevine farmers mechanically separate invasive Spotted Lanternflies (SLF) from harvested grapes using water-based agitation and density-driven buoyancy.
@@ -276,18 +289,24 @@ Additionally, grape and SLF models were made to test separation.
 **SLF Models –** 3D-printed PLA parts sized, shaped, and weighted to simulate the density and surface geometry of real Spotted Lanternflies. Cylinders with diameter 10mm, height 5mm, and weight of 1.42g.
 
 <img src="../../assets/images/first_functionsketch.png" alt="Sketch of System" width="500">
-<img src="../../assets/images/Shaft_CAD.png" alt="Shaft CAD" width="500">
-<img src="../../assets/images/Agitatorbucket_CAD.png" alt="Agitator Bucket CAD" width="500">
-<img src="../../assets/images/shaftinterface_CAD.png" alt="Connection Between The Agitator Bucket and Shaft" width="500">
+<img src="../../assets/images/Shaft_CAD.png" alt="Shaft CAD" width="200">
+<img src="../../assets/images/Agitatorbucket_CAD.png" alt="Agitator Bucket CAD" width="200">
+<img src="../../assets/images/shaftinterface_CAD.png" alt="Connection Between The Agitator Bucket and Shaft" width="200">
 
 ## Assembly instructions
-Step 1 – Prepare the Shaft Insert the machined aluminum shaft through the center hole of the Agitator Bucket. The flange at the top of the shaft should seat flush against the rim of the bucket, constraining the shaft from dropping through.
-Step 2 – Attach the Agitator Head Press-fit the Agitator Head onto the top of the shaft inside the bucket. Ensure the fit is firm with no rotational play. The agitator head should sit near the bottom of the bucket without contacting the bucket floor.
-Step 3 – Verify Clearance Rotate the shaft by hand to confirm the agitator head spins freely without scraping the inner walls of the bucket. Minimum clearance should be maintained on all sides (reference Test 2 data: 4.86 inches measured).
-Step 4 – Connect the Legs. Insert three legs into the three bottom holes near the circumference of the bucket. The fit should be tight.
-Step 5 – Connect the Drill. Insert the end tip of the shaft into the drill chuck. Tighten securely. The drill should be able to drive the shaft in both clockwise and counterclockwise directions for oscillating agitation.
-Step 6 – Load the Bucket. Fill the Agitator Bucket with water to the marked fill line. Add the grape models and SLF models to the water.
-Step 7 – Operate. Power the drill, toggling direction every ~2 seconds to simulate oscillating agitation. Run for 30–60 seconds. SLF models should migrate to the water surface while grape models remain submerged.
+**Step 1 –** Prepare the Shaft Insert the machined aluminum shaft through the center hole of the Agitator Bucket. The flange at the top of the shaft should seat flush against the rim of the bucket, constraining the shaft from dropping through.
+
+**Step 2 –** Attach the Agitator Head Press-fit the Agitator Head onto the top of the shaft inside the bucket. Ensure the fit is firm with no rotational play. The agitator head should sit near the bottom of the bucket without contacting the bucket floor.
+
+**Step 3 –** Verify Clearance Rotate the shaft by hand to confirm the agitator head spins freely without scraping the inner walls of the bucket. Minimum clearance should be maintained on all sides (reference Test 2 data: 4.86 inches measured).
+
+**Step 4 –** Connect the Legs. Insert three legs into the three bottom holes near the circumference of the bucket. The fit should be tight.
+
+**Step 5 –** Connect the Drill. Insert the end tip of the shaft into the drill chuck. Tighten securely. The drill should be able to drive the shaft in both clockwise and counterclockwise directions for oscillating agitation.
+
+**Step 6 –** Load the Bucket. Fill the Agitator Bucket with water to the marked fill line. Add the grape models and SLF models to the water.
+
+**Step 7 –** Operate. Power the drill, toggling direction every ~2 seconds to simulate oscillating agitation. Run for 30–60 seconds. SLF models should migrate to the water surface while grape models remain submerged.
 
 <img src="../../assets/images/first_functionsketch.png" alt="Clearance Between Shaft and End of Drill" width="500">
 

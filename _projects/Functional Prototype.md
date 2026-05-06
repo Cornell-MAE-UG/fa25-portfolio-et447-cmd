@@ -1,10 +1,4 @@
----
-layout: project
-title: Functional Prototype
-description: Centrifugal density separator for SLF post harvest
-image: /assets/images/SLF.jpg
-technologies: NA
----
+
 
 ## Test 1: Comparing the effectiveness of agitation with single-direction spinning
 **What is being tested:** 

@@ -55,6 +55,7 @@ Reducing SLF contamination in harvest improves economic output. Currently, farme
 - Penn State Agricultural Division. “Spotted Lanternfly.” Penn State Extension, extension.psu.edu/spotted-lanternfly.
 - Penn State Agricultural Division, “Spotted Lanternfly Management in Vineyards.” Penn State Extension, extension.psu.edu/spotted-lanternfly-management-in-vineyards.
 - Department of Environmental Conservation, NYS. “Spotted Lanternfly - NYDEC.” Dec.ny.gov, 16 Mar. 2017, dec.ny.gov/nature/animals-fish-plants/spotted-lanternfly.
+
 ---
 # Client Report
 Team Name: F4 Pest Control 

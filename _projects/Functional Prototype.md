@@ -1,3 +1,11 @@
+---
+layout: project
+title: Client Outline
+description: Centrifugal density separator for SLF post harvest
+image: /assets/images/SLF.jpg
+technologies: NA
+---
+
 ## Test 1: Comparing the effectiveness of agitation with single-direction spinning
 **What is being tested:** 
 The effectiveness of the propeller’s constant change of direction vs single-direction spinning in separating grapes and SLF models

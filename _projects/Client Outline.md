@@ -73,6 +73,7 @@ Test 1: Identifying Optimal RPM
 The primary objective of the product is to separate SLF from grapes. We wanted to test at what RPM separation is most effective. In previous testing, we identified that single-directional spinning was more effective than bi-directional agitation. In this test, we aim to refine our separation method.
 Results
 Observed that at low RPM (~3000 RPM), the majority of grape models sink, and SLF models get the most effectively separated at 3000 RPM. As the RPM increases above the 3000 ~ 4000 range,  grape models do not effectively sink and float with SLF models due to the excessively strong vortex created by the agitation. The highest separation efficiency of 93% is reached at approximately 3000 RPM.
+<img src="../../assets/images/separationefficiency_rpm.png" alt="Graph comparing RPM with separation efficiency" width="500">
 
 Test 2: Leak Test
 The design must be able to hold water without significant leakage since the separation mechanism relies on water to separate the grapes from the SLF. 

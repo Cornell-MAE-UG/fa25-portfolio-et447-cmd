@@ -63,6 +63,7 @@ Date: 5/5/26
 
 ## Context and Problem Statement
 <img src="../../assets/images/rendered_view.png" alt="Rendered View of Final Prototype" width="500">
+
 Invasive Spotted Lanternflies (SLF) pose a significant $8.8 million threat to the regional grape population (1). National food regulations mandate that SLF be removed before final production. Currently, entire batches of harvested grapes are often discarded if contamination is found. Our team focused on a post-harvest solution that leverages the physical density differences between the insects and the fruit to ensure crop viability and consumer safety. The primary constraint was to achieve a separation efficiency of at least 90% to meet industrial standards.
 
 ## Final Prototype and Application

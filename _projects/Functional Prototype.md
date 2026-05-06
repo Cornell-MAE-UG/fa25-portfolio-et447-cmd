@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Client Outline
+title: Functional Prototype
 description: Centrifugal density separator for SLF post harvest
 image: /assets/images/SLF.jpg
 technologies: NA
@@ -90,6 +90,16 @@ Legs – 3D-printed PLA columns that provide enough clearance between the floor 
 Additionally, grape and SLF models were made to test separation.
 Grape Models – 3D-printed PLA parts sized, shaped, and weighted to replicate the density and surface geometry of real grapes. Spheres with a diameter of 20mm and a weight of 4.61g.
 SLF Models – 3D-printed PLA parts sized, shaped, and weighted to simulate the density and surface geometry of real Spotted Lanternflies. Cylinders with diameter 10mm, height 5mm, and weight of 1.42g.
+
+## Assembly instructions
+Step 1 – Prepare the Shaft Insert the machined aluminum shaft through the center hole of the Agitator Bucket. The flange at the top of the shaft should seat flush against the rim of the bucket, constraining the shaft from dropping through.
+Step 2 – Attach the Agitator Head Press-fit the Agitator Head onto the top of the shaft inside the bucket. Ensure the fit is firm with no rotational play. The agitator head should sit near the bottom of the bucket without contacting the bucket floor.
+Step 3 – Verify Clearance Rotate the shaft by hand to confirm the agitator head spins freely without scraping the inner walls of the bucket. Minimum clearance should be maintained on all sides (reference Test 2 data: 4.86 inches measured).
+Step 4 – Connect the Legs. Insert three legs into the three bottom holes near the circumference of the bucket. The fit should be tight.
+Step 5 – Connect the Drill. Insert the end tip of the shaft into the drill chuck. Tighten securely. The drill should be able to drive the shaft in both clockwise and counterclockwise directions for oscillating agitation.
+Step 6 – Load the Bucket. Fill the Agitator Bucket with water to the marked fill line. Add the grape models and SLF models to the water.
+Step 7 – Operate. Power the drill, toggling direction every ~2 seconds to simulate oscillating agitation. Run for 30–60 seconds. SLF models should migrate to the water surface while grape models remain submerged.
+
 
 
 

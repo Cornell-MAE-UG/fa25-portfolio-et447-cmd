@@ -308,5 +308,5 @@ Additionally, grape and SLF models were made to test separation.
 
 **Step 7 –** Operate. Power the drill, toggling direction every ~2 seconds to simulate oscillating agitation. Run for 30–60 seconds. SLF models should migrate to the water surface while grape models remain submerged.
 
-<img src="../../assets/images/first_functionsketch.png" alt="Clearance Between Shaft and End of Drill" width="500">
+<img src="../../assets/images/drill_clearance.png" alt="Clearance Between Shaft and End of Drill" width="500">
 
